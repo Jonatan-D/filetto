@@ -1,0 +1,546 @@
+/* #############################  INICIO media 600 a 1023px ############################*/
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header,section,footer {
+		width: 580px;
+		
+
+	}
+
+	header {
+		
+		height: 380px;		
+		padding-top: 60px;
+				
+	}	
+
+	/* #######separadores con margenes######*/
+
+	header,#productos,#servicio,#nosotros,#contacto{
+		margin-bottom: 25px;
+	}
+
+	/*#### cajas del header#####*/
+	#logo{
+	width: 255px;
+	height: 210px;
+	background-image: url("img/logo.png");
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: 70;	
+	
+	
+   }
+#eslogan{
+	width: 210px;
+	height: 50px;
+	margin-top: 60px;
+	margin-left: 15px;
+	background-size: cover;
+}
+	
+	#botonera {
+	    width: 350px;
+		height: 37px;
+		background-color: #6B6565;	 
+		float:right;
+		margin-top: 283px;
+		
+		border:thick;
+		
+	
+	}
+#botonera ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#botonera ul li{
+	display: inline; 
+}
+#botonera ul li a{	
+	padding: 12px 2px;
+	font-size:11px;
+
+	}
+#botonera ul li a:hover{
+	
+	color: #FC0202;
+	
+	padding: 11px 2px;
+	
+}
+	/* #### section principal ####*/
+
+	#productos{
+		height: 755px;
+		
+		
+	}
+	/*#### cajas section PRODUCTOS #####*/
+	 #serv-caja-izq,#serv-caja-der{
+		margin-bottom: 5px;
+	}
+	
+    #caja-arriba-sorrentino{
+		width: 270px;
+		height: 250px;
+					
+		
+	}
+	#caja-arriba-sorrentino figure {
+		width:270px;
+		height: 250px;
+		
+	}
+	#caja-arriba-sorrentino figure img{
+		
+		
+	}
+	#caja-arriba-sorrentino figure img:hover{
+		transform: scale(1.1);
+	}
+
+	.sorrentino-descripcion{
+		width: 310px;
+		height: 250px;				
+		padding-top: 5px;
+		padding-bottom: 5px;		
+		margin-left: 20;
+		background-color: #a87056;
+		font-size: 13px;
+
+	}
+
+	#descripcion-fettuccini{
+		width: 250px;
+		height:250px;
+		padding: 10px;
+		font-size: 13px;
+		
+		
+	}
+    #descripcion-fettuccini #detalle-fetuccini h2{
+		text-align: right;
+	}
+	#caja-fettuccini{
+		width: 330px;
+		height:250px;
+			
+		
+	}
+
+	#caja-fettuccini figure {
+		width:330px;
+		height: 250px;
+		
+	}
+	#caja-fettuccini figure img{
+		
+	}
+	#caja-fettuccini figure img:hover{
+			
+		
+	}
+	
+	#caja-pizza{
+		width: 350px;
+		height: 255px;
+
+	}
+	#caja-pizza figure {
+		width:350px;
+		height: 255px;
+		
+	}
+	#caja-pizza figure img{
+	}
+	#caja-pizza figure img:hover{
+						
+	}
+	
+
+	#descripcion-pizza{
+		width: 230px;
+		height: 255px;
+		background-color: #a87056;
+		float: right;
+		padding: 10px;
+		box-sizing: border-box;
+		font-size: 13px
+		
+
+	}
+	 
+	/* ####cajas de section servicio*/
+
+	#servicio{
+		height: 650px;
+				
+	}
+	#caja-delivery{
+		width: 320px;
+		height: 350px;
+		
+		
+		background-image:url("img/delivery.jpg");
+		background-size: cover;
+	}
+	
+	#caja-descripcion-delivery{
+		width: 260px;
+		height: 350px;
+		background-color: #a87056;
+ 		font-size: 13px;
+ 		padding: 10px;
+		box-sizing: border-box;
+	}
+  	#caja-descripcion-delivery h2{
+		text-align: left;
+	}
+#caja-rappi-pedidos-ya{
+	width: 230px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 45px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+    #rappi{
+		width: 70px;
+	 	height: 70px;
+		margin-left: 20px;
+		background-image: url("img/rappi.png");
+		background-size:cover;
+		border-radius: 12px;
+		float: left;
+	
+	}
+	#pedidos-ya{
+	 	width: 70px;
+	 	height: 70px;
+		margin-left: 40px;
+		background-image: url("img/pedidos-ya.jpg");
+		background-size: cover;
+		border-radius: 12px;
+		float: left;
+	
+	}
+	
+	#caja-catering{
+		width: 300px;
+		height: 300px;
+		float: left;
+		background-image: url("img/catering.png");
+		background-size: cover;
+		
+}
+	#caja-descripcion-catering{
+		width: 280px;
+		height: 300px;
+		background-color: #a87056;
+		float: left;
+		border-bottom-left-radius: 12px;
+		padding: 50px 15px 15px 15px;
+
+		box-sizing: border-box;
+		font-size: 13px;
+	
+}
+#detalle-catering{
+	padding: 10px;
+}
+#detalle-catering h2{
+	text-align: right;
+}
+	/* ####cajas de section nosotros*/
+
+	#nosotros{
+		height: 1100px;
+		padding: 38px;
+		
+	}
+
+	#contenedor-nosotros-izq{
+		width: 480px;
+		height: 430px;
+		
+		margin:20px;
+		float: left;
+
+	}
+#detalle-nosotros h2{
+	margin: 0px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+#detalle-nosotros p{
+	font-size: 15px;
+}
+	
+
+	
+#detalle-nosotros{
+	padding: 15px;
+}
+	
+	#nosotros h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	}
+	
+#botonera-empleados{
+	width: 170px;
+	height: 37px;
+	background-color: #6B6565;	 
+	
+	margin-top: 20px;
+	border-radius: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	
+	
+
+}
+	
+	
+#botonera-empleados ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#botonera-empleados ul li{
+display: inline; 
+}
+#botonera-empleados ul li a {
+display: inline-block;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+
+padding: 13px 2px;
+font-size:12px;
+}
+#botonera-empleados ul li a:hover{
+background-color:#C0B5B5;
+color: #FC0202;
+border-radius: 12px;
+padding: 13px 2px;
+border:thin;
+}
+
+#martin,#romina,#alejandra {
+	justify-content:center;
+	width: 250px;
+	height: 440px;
+	margin: auto;
+	background-color: #E50808;
+	border-radius: 12px;
+	background: -webkit-radial-gradient(circle, white, #221717);
+	transition:all .5s;
+	box-shadow: 0px 14px 20px 2px gray ;
+	padding: 10px;
+	box-sizing: border-box;
+	
+	
+}
+#nosotros img{
+	width: 100%;
+	
+}
+#martin h3, #romina h3, #alejandra h3 {
+	text-align: center;
+	text-shadow: 1px 3px 2px gray;
+	
+}
+
+
+	/*#######contacto#####*/
+#contacto{
+	height: 700px;
+	background: -webkit-radial-gradient(circle, white, #B1B1B1);	
+	border-radius: 12px;
+	padding: 30px;
+	box-sizing: border-box;
+}
+	
+/* ######caja datos de contacto######*/
+
+#caja-datos-contacto{
+	width: 580px;
+	height: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+	
+}
+
+#tel {
+	width: 65px;
+	height: 65px;
+	
+	float: left;
+	margin: 20px;
+	margin-left: 80px;
+	background-image: url("img/ico/telefono.png");
+	background-size: cover;
+}
+
+
+
+#wa{
+	 
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin: 15px;
+	background-image: url("img/ico/wa.png");
+	background-size: cover;
+}
+#ig{
+	 
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin: 15px 40px 15px 15px;
+	
+	background-image: url("img/ico/ig.png");
+	background-size:cover;
+	
+}
+
+#fb{
+	 
+	width: 65px;
+	height: 65px;
+	float: left;
+	margin:25px;
+	background-image: url("img/ico/fb.png");
+	background-size:cover;
+}
+#fb a{
+	width: 75px;
+	height: 75px;
+}
+
+#caja-numero-tel{
+	margin: 5px 2px 5px 70px;
+	width: 108px;
+	height: 35px;
+	float: left;
+	font-size: 12px;
+}
+
+#contacto #caja-datos-contacto p{
+	 
+	font-weight: bold;
+	
+}
+#caja-leyenda-abajo-iconos{
+	
+	width: 340px;
+	height: 30px;
+	
+	margin:7px 1px 10px 5px;
+	float:left;
+	
+	
+} 
+
+#caja-leyenda-abajo-iconos p{
+	font-size: 11px;
+}
+
+/*####formulario de contacto####*/
+#contacto h2{
+	margin-left: 20px;
+	font-size: 30px;
+	text-align: center;
+	
+}	
+#contacto form ul li{
+	list-style-type: none;
+}
+#leyenda-formulario{
+	font-size: 13px;
+	margin-top:-100px; 
+}
+#formulario{
+	margin-bottom: 10px;
+}
+
+#campos-obligatorios{
+	color: #E50808;
+	font-weight: bolder;
+	margin:0px; 
+	font-size: 12px;
+}
+
+/*################section encuesta##############################*/
+#encuesta{
+	height: 500px;
+		padding: 10px;
+		box-sizing: border-box;
+		border-radius: 12px;
+		background: -webkit-radial-gradient(circle, white, #B1B1B1);
+}
+
+#caja-titulo-encuesta h2{
+	text-align: center;
+	font-size: 30px;
+}
+#caja-cuestionario{
+	width: 560px;
+	height: 380px;
+	
+}
+
+
+
+	/*##### footer ####*/
+
+	footer{
+
+		height: 80px;
+		background: -webkit-radial-gradient(circle, white, #B1B1B1);	
+		border-radius: 12px;
+	}
+
+	/* ##cajas del footer##*/
+
+	#pie-izq{
+		width: 140px;
+		height: 60px;
+		float: left;
+		margin-left: 20px;
+		margin-top: 20px;
+		
+	}
+
+	#pie-izq p {
+		font-size: 12px;
+	}
+	
+	#pie-der{
+		width: 200px;
+		height: 50px;	
+	   
+	    margin-right: 20px;
+	    margin-top: 20px;
+
+	}
+	#pie-der p {
+		font-size: 12px;
+	}
+
+	} 
+		
+	
+
+/* #############################  fin media 600 a 1023px ############################*/

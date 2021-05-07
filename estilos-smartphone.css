@@ -1,0 +1,655 @@
+/* ############################ inicio media hasta 599px media ########################################*/
+
+@media all and (max-width: 599px){
+
+	
+body{
+	font-family: Tahoma, Arial, Verdana ;
+	background-color: #000000;
+		
+}	
+
+header,section,footer {
+		width: 100%;
+
+	}
+
+	header {
+		
+		height: auto;
+		background: -webkit-radial-gradient(circle, white, #B1B1B1);
+		border-radius: 12px;
+		padding-top: 10px;
+		box-sizing: border-box;
+		
+	}	
+
+	/* #######separadores con margenes######*/
+
+	header,#productos,#servicio,#nosotros,#contacto{
+		margin-bottom: 25px;
+	}
+
+	/*#### cajas del header#####*/
+	#logo{
+	width: 96%;
+	height: 250px;
+	padding: 0;
+	margin-left:18%;
+	
+	margin-top: 3%;
+	background-image: url("img/logo-responsive.png");
+	back	
+	
+	
+
+	 /*
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;*/	
+	
+	
+   }
+#eslogan{
+	width: 100%;
+	height: 90px;
+	background-image: url("img/eslogan.png");
+	margin-top: 200px;
+	background-size: cover; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;	
+    clear: both;
+    padding:7px;
+    box-sizing: border-box;
+
+
+}	
+	
+	#botonera {
+	    width: 100%;
+		height: auto;
+		background-color: #6B6565;	 
+		
+		margin-top: 320px;
+
+		border-radius: 12px;
+		border:thick;
+		border-color: aqua;
+	
+	}
+#botonera ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#botonera ul li{
+	display: block; 
+}
+#botonera ul li a{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 12px 0;
+	
+	
+	}
+#botonera ul li a:hover{
+	background-color:#C0B5B5;
+	color: #FC0202;
+	border-radius: 12px;
+	padding: 12px 0;
+	border:thin;
+}
+	/* #### section principal ####*/
+
+	#productos{
+		height: auto;
+		background-color: blue;
+		border-radius: 12px;
+		
+	}
+	/*#### cajas section PRODUCTOS #####*/
+	 #serv-caja-izq,#serv-caja-der{
+		margin-bottom: 5px;
+	}
+
+	
+	
+    #caja-arriba-sorrentino{
+		width: 100%;
+		height: 220px;
+		background-color: #a87056;
+		float: none;
+		
+	}
+	#caja-arriba-sorrentino figure {
+		width:100%;
+		height: auto;
+	}
+	#caja-arriba-sorrentino figure img{
+		
+		
+	}
+	#caja-arriba-sorrentino figure img:hover{
+		
+	}
+
+
+
+	.sorrentino-descripcion{
+		width: 100%;
+		height: auto;
+		padding-left: 20px;
+		float: none;
+		clear: both;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		box-sizing: border-box;
+		margin-left: 0;
+		background-color: #a87056;
+		border-top-right-radius: unset;
+		font-size: 13px;
+		
+		
+			
+	}
+
+	#caja-fettuccini2{
+		
+		width: 100%;
+		height:220px;			
+		float:none;
+		clear:all;
+		background-size: cover;		
+		float: left;
+		background-color: #a87056;		
+		transition: transform .5s;	
+		display: flex;	
+		box-sizing: border-box;
+		padding: 0;
+	}
+	#caja-fettuccini2 figure {
+		width:100%;
+		height: auto;
+		transition: all 500ms ease;
+		overflow:hidden;
+		margin: 0;
+		box-sizing: border-box;
+		padding: 0;
+	}
+	#caja-fettuccini2 figure img{
+		transition: all 500ms ease;
+		cursor: pointer;
+		width:100%;
+	}
+	#caja-fettuccini2 figure img:hover{
+		
+		transform: scale(1.1);
+	}
+
+
+
+
+	#caja-fettuccini{
+		display: none;
+		width: 100%;
+		height:220px;			
+		float:none;
+		clear:all;
+		
+	}
+	#caja-fettuccini figure {
+		width:100%;
+		height: auto;
+		display: none;
+	}
+	#caja-fettuccini figure img{
+		display: none;
+	}
+	#caja-fettuccini figure img:hover{
+		display: none;
+				
+	}
+	#descripcion-fettuccini{
+		width: 100%;
+		height:auto;
+		
+		padding: 20px;
+		box-sizing: border-box;
+		float:left;
+		margin-top: 0px;
+		font-size: 13px;	
+		
+	}
+    #descripcion-fettuccini #detalle-fetuccini h2{
+		text-align: left;
+		font-size: 13px;
+	}
+	
+
+	
+	
+	#caja-pizza{
+		width: 100%;
+		height: 220px;
+		background-size: cover;
+		float:none;
+		clear: both;
+		border-bottom-left-radius:unset;
+		
+	}
+	#caja-pizza figure {
+		width:100%;
+		height: 220px;
+				
+	}
+	#caja-pizza figure img{
+	}
+	#caja-pizza figure img:hover{
+				
+	}
+
+
+	#descripcion-pizza{
+		width: 100%;
+		height: auto;
+		background-color: #a87056;
+		float: none;
+		padding: 10px;
+		box-sizing: border-box;
+		border-bottom-right-radius: 12px;
+		border-bottom-left-radius: 12px;
+		font-size: 13px;
+
+	}
+	 
+	/* ####cajas de section servicio*/
+
+	#servicio{
+		height: 527px;
+		
+		
+	}
+	#caja-delivery{
+		display: none;
+		width: 100%;
+		height: 220px;
+		float:left;
+		border-top-left-radius: 12px;
+		background-image:url("img/delivery.jpg");
+		background-size: cover;
+		border-top-right-radius:12px;
+	}
+	
+	#caja-descripcion-delivery{
+		display: none;
+		width: 100%;
+		height: auto;
+		background-color: #a87056;
+		float: none;
+		padding: 10px;
+		box-sizing: border-box;
+		border-top-right-radius:unset;
+		clear: both;
+		font-size: 13px;
+	}
+  	#caja-descripcion-delivery h2{
+		text-align: left;
+	}
+	#caja-rappi-pedidos-ya{
+	width: 100%;
+	height: 80px;
+	margin-left: 100px;
+	margin-top: 45px;
+	padding: 5px;
+	box-sizing: border-box;
+	}
+    #rappi{
+		width: 70px;
+	 	height: 70px;
+		margin-left: 20px;
+		background-image: url("img/rappi.png");
+		background-size:cover;
+		border-radius: 12px;
+		float: left;
+	
+	}
+	#pedidos-ya{
+	 	width: 70px;
+	 	height: 70px;
+		margin-left: 40px;
+		background-image: url("img/pedidos-ya.jpg");
+		background-size: cover;
+		border-radius: 12px;
+		float: left;
+	
+	}
+	
+	#caja-catering{
+		width: 100%;
+		height: 300px;
+		float: left;
+		background-image: url("img/catering.png");
+		background-size: cover;
+		border-bottom-right-radius: 12px;
+		border-bottom-left-radius: 12px;
+		
+}
+	#caja-descripcion-catering{
+		width: 100%;
+		height: auto;
+		background-color: #a87056;
+		float: left;
+		border-top-left-radius: 12px;
+		border-top-right-radius: 12px;
+		padding: 15px;
+		box-sizing: border-box;
+		border-bottom-left-radius:unset;
+	
+}
+#detalle-catering{
+	padding: 10px;
+}
+#detalle-catering h2{
+	text-align: left;
+}
+	/* ####cajas de section nosotros*/
+
+	#nosotros{
+		height: auto;
+		/*background-color: #a87056;*/
+
+		padding: 1px;
+		padding-bottom: 20px;
+		box-sizing: border-box;
+		border-radius: 12px;
+		background: -webkit-radial-gradient(circle, white, #B1B1B1);
+	}
+
+	#contenedor-nosotros-izq{
+		width: 100%;
+		height: auto;
+		/*background-color: #7cf291;*/
+		margin-top: 15px;
+		margin-right: 0px;
+		float: left;
+	}
+#detalle-nosotros h2{
+
+	margin: -30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	border-bottom-left-radius: 13px;
+}
+#detalle-nosotros p{
+	margin-top: 40px;
+	font-size: 20px;
+}
+	
+
+	
+#detalle-nosotros{
+	padding: 10px;
+}
+	
+	
+	
+	#nosotros h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	}
+	
+#botonera-empleados{
+	width: 170px;
+	height: 37px;
+	background-color: #6B6565;	 
+	
+	margin-top: 20px;
+	border-radius: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	
+	
+
+}
+	
+	
+#botonera-empleados ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#botonera-empleados ul li{
+display: inline; 
+}
+#botonera-empleados ul li a {
+display: inline-block;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+
+padding: 13px 2px;
+font-size:12px;
+}
+#botonera-empleados ul li a:hover{
+background-color:#C0B5B5;
+color: #FC0202;
+border-radius: 12px;
+padding: 13px 2px;
+border:thin;
+}
+
+#martin,#romina,#alejandra {
+	justify-content:center;
+	width: 250px;
+	height: 440px;
+	margin: auto;
+	background-color: #E50808;
+	border-radius: 12px;
+	background: -webkit-radial-gradient(circle, white, #221717);
+	transition:all .5s;
+	box-shadow: 0px 14px 20px 2px gray ;
+	padding: 10px;
+	box-sizing: border-box;
+	
+	
+}
+#nosotros img{
+	width: 100%;
+	
+}
+#martin h3, #romina h3, #alejandra h3 {
+	text-align: center;
+	text-shadow: 1px 3px 2px gray;
+	
+}
+
+
+	
+	
+	
+/*#######contacto#####*/
+#contacto{
+	height: auto;
+	background: -webkit-radial-gradient(circle, white, #B1B1B1);
+	border-radius: 12px;
+	
+	padding: 5px 30px;
+	box-sizing: border-box;
+}
+/* ######caja datos de contacto######*/
+
+#caja-datos-contacto{
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	box-sizing: border-box;
+	
+	
+}
+
+#tel {
+
+	width: 55px;
+	height: 55px;
+	
+	float: none;
+	margin: 20px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("img/ico/telefono.png");
+	background-size: cover;
+}
+
+
+
+#wa{
+	 
+	width: 55px;
+	height: 55px;
+	float: none;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("img/ico/wa.png");
+	background-size: cover;
+}
+#ig{
+	 
+	width: 55px;
+	height: 55px;
+	float: none;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("img/ico/ig.png");
+	background-size:cover;
+	
+}
+
+#fb{
+	
+	margin-left: auto;
+	margin-right: auto; 
+	width: 55px;
+	height: 55px;
+	float: none;
+	background-image: url("img/ico/fb.png");
+	background-size:cover;
+}
+
+#caja-numero-tel{
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 140px;
+	height: 50px;
+	float:none;
+}
+
+#contacto #caja-datos-contacto p{
+	 
+	font-weight: bold;
+	
+}
+#caja-leyenda-abajo-iconos{
+	
+	width: 100%;
+	height: 50px;
+	padding:0;
+	margin:5px;
+	float:none;
+
+}
+#caja-leyenda-abajo-iconos p{
+	font-size: 12px;
+}
+
+/*####formulario de contacto####*/
+#leyenda-formulario {
+	display: none;
+}
+
+#contacto h2{
+
+	margin-left: 20px;
+	font-size: 38px;
+	text-align: center;
+	
+}	
+#contacto form ul li{
+	display: none;
+	list-style-type: none;
+}
+
+#campos-obligatorios{
+	display: none;
+	color: #E50808;
+	font-weight: bolder;
+	margin:0px; 
+}
+/*################section encuesta##############################*/
+#encuesta{
+	height: auto;
+		
+		padding: 10px;
+		box-sizing: border-box;
+		border-radius: 12px;
+		background: -webkit-radial-gradient(circle, white, #B1B1B1);
+}
+
+#caja-titulo-encuesta h2{
+	text-align: center;
+	font-size: 38px;
+}
+#caja-cuestionario{
+	width: 100%;
+	height: auto;
+	
+}
+
+
+
+
+
+
+
+	/*##### footer ####*/
+
+	footer{
+
+		height: 100px;
+		background: -webkit-radial-gradient(circle, white, #B1B1B1);	
+		border-radius: 12px;
+		padding-top: 10px;
+		box-sizing: border-box;
+	}
+
+	/* ##cajas del footer##*/
+
+	#pie-izq{
+		margin-right:auto;
+		margin-left: auto;
+		width: 250px;
+		height: 20px;
+		float: none;
+	}
+	#pie-der{
+		margin-right:auto;
+		margin-left: auto;
+		width: 280px;
+		height: 30px;	
+	    float: none;
+	}
+
+}
+/*############################ fin media ############################################*/
