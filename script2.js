@@ -1,5 +1,4 @@
 /*
-
 var modo = confirm('El modo oscuro está definido por defecto. ¿Quieres deshabilitarlo?')
 if(modo){
 	var cuerpo = document.getElementById('cuerpo')
@@ -18,21 +17,13 @@ if(modo){
 	cuerpo.style.backgroundColor = '#000000'
 }
 	
-
-
-
-function mostrar (IdEmpleado){
-	var nosotros = document.getElementById(IdEmpleado)
-	nosotros.style.display = 'block'
-	
-	
-	
-}
-function ocultar (IdEmpleado){
-	var nosotros= document.getElementById(IdEmpleado)
-	nosotros.style.display = 'none'
-	
-}
-
 */
 
+function mostrar(IdEmpleado) {
+  var nosotros = document.getElementById(IdEmpleado);
+  nosotros.style.display = "block";
+}
+function ocultar(IdEmpleado) {
+  var nosotros = document.getElementById(IdEmpleado);
+  nosotros.style.display = "none";
+}

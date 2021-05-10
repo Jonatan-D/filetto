@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 
 <head>
 	<title>Filetto pastas artesanales</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<link rel="stylesheet" type="text/css" href="estilos-smartphone.css">
 	<link rel="stylesheet" type="text/css" href="estilos-intermedio.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<script type="text/javascript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 
 </head>
 
-<body id="cuerpo">
+<body id="cuerpo" class="bg-dark">
 	<header>
 		<nav id="botonera">
 			<ul>
@@ -23,8 +25,8 @@
 				<li><a href="#nosotros">Nosotros</a></li>
 				<li><a href="#contacto">Contacto</a></li>
 				<li><a href="#encuesta">Encuesta</a></li>
-				<li><a href="bootstrap/index.html" target="_blank">RRHH</a></li>
-				
+				<li><a href="#rrhh">RRHH</a></li>
+
 			</ul>
 		</nav>
 
@@ -37,10 +39,10 @@
 	<section id="productos">
 
 		<div id="caja-arriba-sorrentino">
-				<figure>
-					<img src="img/sorrentinos.jpg">
-				
-				</figure>
+			<figure>
+				<img src="img/sorrentinos.jpg">
+
+			</figure>
 		</div>
 		<div class="sorrentino-descripcion">
 			<h2>Sorrentinos</h2>
@@ -58,7 +60,7 @@
 		<div id="caja-fettuccini2">
 			<figure>
 				<img src="img/Fettuccine-2.jpg">
-			
+
 			</figure>
 		</div>
 		<div id="descripcion-fettuccini">
@@ -76,7 +78,7 @@
 		<div id="caja-fettuccini">
 			<figure>
 				<img src="img/Fettuccine.jpg">
-			
+
 			</figure>
 		</div>
 
@@ -108,11 +110,6 @@
 	<section id="servicio">
 		<div id="caja-delivery"></div>
 
-
-
-
-
-
 		<div id="caja-descripcion-delivery">
 			<h2>Servicio de delivery</h2>
 			<p>Brindamos un servicio de reparto a domicilio para que no tengas que moverte de tu casa para disfrutar de
@@ -134,17 +131,11 @@
 		</div>
 		<div id="caja-catering"></div>
 
-
-
-
-
-
 	</section>
 
 	<!-- ##### cajas section nosotros ##### -->
 
-	
-	<section id="nosotros" >
+	<section id="nosotros">
 
 		<div id="contenedor-nosotros-izq">
 			<div id="detalle-nosotros">
@@ -161,19 +152,19 @@
 					el mejor regalo que nos dieron nuestros padres y abuelos.</p>
 			</div>
 		</div>
-		 <h2>Nuestros especialistas</h2>
+		<h2>Nuestros especialistas</h2>
 		<nav id="botonera-empleados">
 			<ul>
-				<li><a href="#nosotros" onMouseOver="mostrar('martin')"onMouseOut="ocultar('martin')"> Martín</a></li>
+				<li><a href="#nosotros" onMouseOver="mostrar('martin')" onMouseOut="ocultar('martin')"> Martín</a></li>
 				<li><a href="#nosotros" onMouseOver="mostrar('romina')" onMouseOut="ocultar('romina')"> Romina</a></li>
 				<li><a href="#nosotros" onMouseOver="mostrar('alejandra')" onMouseOut="ocultar('alejandra')"> Alejandra</a></li>
 			</ul>
-					
 		</nav>
+
 		<div id="martin" style="display: none;">
 			<h3> Martín Luque </h3>
 			<img src="img/martin.jpg">
-			
+
 		</div>
 		<div id="romina" style="display: none;">
 			<h3>Romina Zelarayan</h3>
@@ -182,16 +173,10 @@
 		<div id="alejandra" style="display: none;">
 			<h3>Alejandra Zárate</h3>
 			<img src="img/romina.jpg">
-			
+
 		</div>
 
-
-		
-
-
-
 	</section>
-
 
 	<!-- ##### cajas section contacto ##### -->
 
@@ -204,18 +189,15 @@
 				</a>
 			</div>
 
-			<div id="caja-whatsapp"><a id="wa-link" href="https://api.whatsapp.com/send?phone=+543516823621"
-					target="_blank">
+			<div id="caja-whatsapp"><a id="wa-link" href="https://api.whatsapp.com/send?phone=+543516823621" target="_blank">
 					<div id="wa"></div>
 				</a></div>
 
-			<div id="caja-facebook"><a id="fb-link" href="https://www.facebook.com/filettopastasartesanales"
-					target="_blank">
+			<div id="caja-facebook"><a id="fb-link" href="https://www.facebook.com/filettopastasartesanales" target="_blank">
 					<div id="fb"></div>
 				</a></div>
 
-			<div id="caja-instagram"><a id="ig-link" href="https://www.instagram.com/filetto_pastasartesanales/"
-					target="_blank">
+			<div id="caja-instagram"><a id="ig-link" href="https://www.instagram.com/filetto_pastasartesanales/" target="_blank">
 					<div id="ig"></div>
 				</a></div>
 
@@ -228,49 +210,51 @@
 
 		</div>
 
-		<p id="leyenda-formulario">Envianos tu consulta con tus datos. Nos comunicaremos a la brevedad.</p>
+		<?php
+		if (isset($_GET['ok'])) {
+			echo "<h5>¡Hemos recibido su consulta, te contestaremos en breve!</h5>";
+		} else { ?>
 
-		<form id="formulario" method="POST" action="enviar_consulta.php">
-			
-				<input type="text" placeholder="Nombre*" name="nombre" required>
-				<input type="text" placeholder="Apellido*" name="apellido" required>
-				<input type="tel" name="telefono" placeholder="Teléfono*" required>
-				<input type="email" placeholder="Email*" name="correo" required>
-				<textarea name="consulta" rows="12" placeholder="Su contulta:" cols="30"></textarea>
-				<input type="submit" >
+			<form id="formulario" class="col-md-6" method="POST" action="enviar_consulta.php">
+				<label for="leyenda-form" class="form-label">Envianos tu consulta y tus datos. Nos comunicaremos a la brevedad.</label>
+				<input type="text" placeholder="Nombre*" minlength="4" maxlength="30" name="nombre" required class="form-control">
+				<input type="text" placeholder="Apellido*" minlength="4" maxlength="30" name="apellido" required class="form-control">
+				<input type="tel" name="telefono" minlength="7" maxlength="15" placeholder="Teléfono*" required class="form-control">
+				<input type="email" placeholder="Email*" minlength="4" maxlength="40" name="correo" required class="form-control">
+				<label for="leyenda" class="form-label">Su consulta: </label>
+				<textarea name="consulta" rows="10" cols="57" minlength="50"> </textarea>
+				<input type="submit" value="Enviar consulta" class="form-control">
 
-			</ul>
-		</form>
-		<div id="campos-obligatorios">
-			<p>Los campos marcados con (*) son obligatorios.</p>
-		</div>
+				</ul>
+			</form>
+			<div id="campos-obligatorios">
+				<p>Los campos marcados con (*) son obligatorios.</p>
+			</div>
+		<?php } ?>
 
+	</section>
+	<section id="rrhh">
+		<?php
+		include 'carrousel.php';
+		?>
 
 
 	</section>
-	<section id="encuesta">
-		<div id="caja-titulo-encuesta">
-			<h2>Encuesta</h2>
-		</div>
-		<div id="caja-cuestionario">
-			<script type="text/javascript">
-				realizarEncuesta()
+	<!-- contenido postulacion -->
+	<section id="form_postulantes">
+		<div id="contenido1" class="col-md">
+			<?php
+			if (isset($_GET['ok'])) {
+				echo '<p class="text-success text-center"><font size=6> <b>¡Hemos recibido su postulación correctamente!</b></font></p>';
+			} else if (isset($_GET['error'])) {
 
+				echo '<p class="text-danger"><font size=4><b>Tu DNI ya se encuentra en nuestra base de datos.</b></font></p>';
+				include 'formu_postulacion.php';
+			} else {
+				include 'formu_postulacion.php';
+			}
 
-				document.write('<h3>' + cancelada + '</h3>')
-				document.write('<p><strong>Nombre:</strong> ' + nombre + '</p>')
-				document.write('<p><strong>¿Cómo nos conociste?:</strong> ' + pregunta1 + '</p>')
-				document.write('<p><strong>¿Nos recomendarías?:</strong> ' + pregunta2 + '</p>')
-				document.write('<p><strong>¿Qué menu te gustaría que incorporemos?:</strong> ' + pregunta3 + '</p>')
-				document.write('<p><strong>¿Cómo calificas a nuestro servicio de catering?:</strong> ' + pregunta4 + '</p>')
-				document.write('<p><strong>¿Nos sigues en las redes sociales?: </strong>' + pregunta5 + '</p>')
-
-
-			</script>
-
-			
-			</div>
-
+			?>
 
 		</div>
 
@@ -285,6 +269,11 @@
 		</div>
 	</footer>
 	<script type="text/javascript" src="script2.js"></script>
+	<script type="text/javascript" src="script3.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 
 </html>

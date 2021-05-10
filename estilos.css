@@ -1,593 +1,518 @@
-body{
-	font-family: Tahoma, Arial, Verdana ;
-	background-color: #000000;
-		
-		
-}	
-
-header,section,footer {
-		width: 960px;
-		margin-right: auto;
-		margin-left: auto;
-
-	}
-
-	header {
-		
-		height: 480px;
-		background: -webkit-radial-gradient(circle, white, #B1B1B1);
-		border-radius: 12px;
-		padding-top: 60px;
-		box-sizing: border-box;
-		
-	}	
-
-	/* #######separadores con margenes######*/
-
-	header,#productos,#servicio,#nosotros,#contacto,#encuesta{
-		margin-bottom: 25px;
-	}
-
-	/*#### cajas del header#####*/
-	#logo{
-	width: 300px;
-	height: 250px;
-	background-image: url("img/logo.png");
-	background-repeat: no-repeat;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-top: 70;	
-	
-	
-   }
-#eslogan{
-	width: 300px;
-	height: 85px;
-	background-image: url("img/eslogan.png");
-	margin-top: 100px;
-	margin-left: 15px;
+body {
+  font-family: Tahoma, Arial, Verdana;
+  background-color: rgb(77, 74, 74);
 }
-	
-	#botonera{
-	    width: 507px;
-		height: 60px;
-		background-color: #6B6565;	 
-		float:right;
-		margin-top: 360px;
-		border-radius: 12px;
-		border:thick;
-		border-color: aqua;
-	
-	}
-#botonera ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+
+header,
+section,
+footer {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
 }
-#botonera ul li{
-	display: inline; 
+
+header {
+  height: 480px;
+  background: -webkit-radial-gradient(circle, white, #b1b1b1);
+  border-radius: 12px;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+/* #######separadores con margenes######*/
+
+header,
+#productos,
+#servicio,
+#nosotros,
+#contacto,
+#encuesta,
+#rrhh,
+#form_postulantes {
+  margin-bottom: 25px;
+}
+
+/*#### cajas del header#####*/
+#logo {
+  width: 300px;
+  height: 250px;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 70;
+}
+#eslogan {
+  width: 300px;
+  height: 85px;
+  background-image: url("img/eslogan.png");
+  margin-top: 100px;
+  margin-left: 15px;
+}
+
+#botonera {
+  width: 462px;
+  height: 60px;
+  background-color: #6b6565;
+  float: right;
+  margin-top: 360px;
+  border-radius: 12px;
+  border: thick;
+  border-color: aqua;
+}
+#botonera ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#botonera ul li {
+  display: inline;
 }
 #botonera ul li a {
-	display: inline-block;
-	color: #000000;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 21px 4px;
-	}
-#botonera ul li a:hover{
-	background-color:#C0B5B5;
-	color: #FC0202;
-	border-radius: 12px;
-	padding: 12px 4px;
-	border:thin;
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 21px 4px;
 }
-	/* #### section principal ####*/
-
-	#productos{
-		height: 805px;
-		
-		border-radius: 12px;
-	}
-	/*#### cajas section PRODUCTOS #####*/
-	 #serv-caja-izq,#serv-caja-der{
-		margin-bottom: 5px;
-	}
-
-	
-	
-    #caja-arriba-sorrentino{
-		width: 400px;
-		height: 300px;
-				
-		float: left;
-		border-top-left-radius: 12px;
-		background-color: #a87056;		
-		transition: transform .5s;	
-		display: flex;	
-		box-sizing: border-box;
-		padding: 0;
-	}
-	
-	#caja-arriba-sorrentino figure {
-		width:400px;
-		height: 300px;
-		transition: all 500ms ease;
-		overflow:hidden;
-		margin: 0;
-		box-sizing: border-box;
-		padding: 0;
-		border-top-left-radius: 12px;
-	}
-	#caja-arriba-sorrentino figure img{
-		transition: all 500ms ease;
-		cursor: pointer;
-		
-	}
-	#caja-arriba-sorrentino figure img:hover{
-		transform: scale(1.1);
-	}
-
-	.sorrentino-descripcion{
-		width: 560px;
-		height: 300px;
-		padding-left: 20px;
-		float: left;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		box-sizing: border-box;
-		margin-left: 20;
-		background-color: #a87056;
-		border-top-right-radius: 12px;
-		
-		
-			
-	}
-	#descripcion-fettuccini{
-		width: 340px;
-		height:230px;
-		background-color: #a87056;
-		padding: 20px;
-		box-sizing: border-box;
-		float: left;
-		
-	}
-    #descripcion-fettuccini #detalle-fetuccini h2{
-		text-align: right;
-	}
-	#caja-fettuccini2{
-		
-		display: none;
-	}
-	#caja-fettuccini{
-		width: 620px;
-		height:230px;
-		
-		float: left;
-		background-color: #a87056;		
-		transition: transform .5s;	
-		display: flex;	
-		box-sizing: border-box;
-		padding: 0;
-	}
-	#caja-fettuccini figure {
-		width:620px;
-		height: 230px;
-		transition: all 500ms ease;
-		overflow:hidden;
-		margin: 0;
-		box-sizing: border-box;
-		padding: 0;
-		
-	}
-	#caja-fettuccini figure img{
-		transition: all 500ms ease;
-		cursor: pointer;
-		width:100%;
-	}
-	#caja-fettuccini figure img:hover{
-		transform: scale(1.1);
-		
-		
-	}
-	
-	#caja-pizza{
-		width: 485px;
-		height: 275px;	
-		float: left;
-		border-bottom-left-radius: 12px;
-		background-color: #a87056;		
-		transition: transform .5s;	
-		display: flex;	
-		box-sizing: border-box;
-		padding: 0;
-
-	}
-
-	#caja-pizza figure {
-		width:485px;
-		height: 275px;
-		transition: all 500ms ease;
-		overflow:hidden;
-		margin: 0;
-		box-sizing: border-box;
-		padding: 0;
-		
-	}
-	#caja-pizza figure img{
-		transition: all 500ms ease;
-		cursor: pointer;
-		width:100%;
-	}
-	#caja-pizza figure img:hover{
-		transform: scale(1.1);
-				
-	}
-
-
-
-	#descripcion-pizza{
-		width: 475px;
-		height: 275px;
-		background-color: #a87056;
-		float: right;
-		padding: 10px;
-		box-sizing: border-box;
-		border-bottom-right-radius: 12px;
-
-	}
-	 
-	/* ####cajas de section servicio*/
-
-	#servicio{
-		height: 650px;
-		
-		
-	}
-	#caja-delivery{
-		width: 450px;
-		height: 350px;
-		float: left;
-		border-top-left-radius: 12px;
-		background-image:url("img/delivery.jpg");
-		background-size: cover;
-	}
-	
-	#caja-descripcion-delivery{
-		width: 510px;
-		height: 350px;
-		background-color: #a87056;
-		float: left;
-		padding: 10px;
-		box-sizing: border-box;
-		border-top-right-radius: 12px;
-	}
-  	#caja-descripcion-delivery h2{
-		text-align: left;
-	}
-#caja-rappi-pedidos-ya{
-	width: 230px;
-	height: 80px;
-	margin-left: 100px;
-	margin-top: 45px;
-	padding: 5px;
-	box-sizing: border-box;
+#botonera ul li a:hover {
+  background-color: #c0b5b5;
+  color: #fc0202;
+  border-radius: 12px;
+  padding: 12px 4px;
+  border: thin;
 }
-    #rappi{
-		width: 70px;
-	 	height: 70px;
-		margin-left: 20px;
-		background-image: url("img/rappi.png");
-		background-size:cover;
-		border-radius: 12px;
-		float: left;
-	
-	}
-	#pedidos-ya{
-	 	width: 70px;
-	 	height: 70px;
-		margin-left: 40px;
-		background-image: url("img/pedidos-ya.jpg");
-		background-size: cover;
-		border-radius: 12px;
-		float: left;
-	
-	}
-	
-	#caja-catering{
-		width: 550px;
-		height: 300px;
-		float: left;
-		background-image: url("img/catering.png");
-		background-size: cover;
-		border-bottom-right-radius: 12px;
-		
-}
-	#caja-descripcion-catering{
-		width: 410px;
-		height: 300px;
-		background-color: #a87056;
-		float: left;
-		border-bottom-left-radius: 12px;
-		padding: 15px;
-		box-sizing: border-box;
-	
-}
-#detalle-catering{
-	padding: 10px;
-}
-#detalle-catering h2{
-	text-align: right;
-}
-	/* ####cajas de section nosotros*/
+/* #### section principal ####*/
 
-	#nosotros{
-		height: 1150px;
-	
-		padding: 38px;
-		box-sizing: border-box;
-		border-radius: 12px;
-		background: -webkit-radial-gradient(circle, white, #B1B1B1);
-	}
+#productos {
+  height: 805px;
 
-	#contenedor-nosotros-izq{
-		width: 880px;
-		height: 430px;
-		
-		margin-top: 20px;
-		margin-right: 40px;
-		float: left;
-	}
-#detalle-nosotros h2{
-	margin: 0px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 35px;
+  border-radius: 12px;
 }
-#detalle-nosotros p{
-	font-size: 20px;
-}
-	
-
-	
-#detalle-nosotros{
-	padding: 15px;
+/*#### cajas section PRODUCTOS #####*/
+#serv-caja-izq,
+#serv-caja-der {
+  margin-bottom: 5px;
 }
 
+#caja-arriba-sorrentino {
+  width: 400px;
+  height: 300px;
 
-
-
-#nosotros h2{
-margin: 0px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 35px;
+  float: left;
+  border-top-left-radius: 12px;
+  background-color: #a87056;
+  transition: transform 0.5s;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0;
 }
-#botonera-empleados{
-	width: 280px;
-	height: 60px;
-	background-color: #6B6565;	 
-	
-	margin-top: 20px;
-	border-radius: 12px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 15px;
-	border:thick;
-	border-color: aqua;
-	box-shadow: 0px 14px 20px 2px gray ;
 
+#caja-arriba-sorrentino figure {
+  width: 400px;
+  height: 300px;
+  transition: all 500ms ease;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-top-left-radius: 12px;
 }
-#botonera-empleados ul{
-margin: 0;
-padding: 0;
-list-style-type: none;
+#caja-arriba-sorrentino figure img {
+  transition: all 500ms ease;
+  cursor: pointer;
 }
-#botonera-empleados ul li{
-display: inline; 
+#caja-arriba-sorrentino figure img:hover {
+  transform: scale(1.1);
+}
+
+.sorrentino-descripcion {
+  width: 560px;
+  height: 300px;
+  padding-left: 20px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  margin-left: 20;
+  background-color: #a87056;
+  border-top-right-radius: 12px;
+}
+#descripcion-fettuccini {
+  width: 340px;
+  height: 230px;
+  background-color: #a87056;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+#descripcion-fettuccini #detalle-fetuccini h2 {
+  text-align: right;
+}
+#caja-fettuccini2 {
+  display: none;
+}
+#caja-fettuccini {
+  width: 620px;
+  height: 230px;
+
+  float: left;
+  background-color: #a87056;
+  transition: transform 0.5s;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0;
+}
+#caja-fettuccini figure {
+  width: 620px;
+  height: 230px;
+  transition: all 500ms ease;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+#caja-fettuccini figure img {
+  transition: all 500ms ease;
+  cursor: pointer;
+  width: 100%;
+}
+#caja-fettuccini figure img:hover {
+  transform: scale(1.1);
+}
+
+#caja-pizza {
+  width: 485px;
+  height: 275px;
+  float: left;
+  border-bottom-left-radius: 12px;
+  background-color: #a87056;
+  transition: transform 0.5s;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#caja-pizza figure {
+  width: 485px;
+  height: 290px;
+  transition: all 500ms ease;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-bottom-left-radius: 12px;
+}
+#caja-pizza figure img {
+  transition: all 500ms ease;
+  cursor: pointer;
+  width: 100%;
+}
+#caja-pizza figure img:hover {
+  transform: scale(1.1);
+}
+
+#descripcion-pizza {
+  width: 475px;
+  height: 290px;
+  background-color: #a87056;
+  float: right;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom-right-radius: 12px;
+}
+
+/* ####cajas de section servicio*/
+
+#servicio {
+  height: 650px;
+}
+#caja-delivery {
+  width: 450px;
+  height: 350px;
+  float: left;
+  border-top-left-radius: 12px;
+  background-image: url("img/delivery.jpg");
+  background-size: cover;
+}
+
+#caja-descripcion-delivery {
+  width: 510px;
+  height: 350px;
+  background-color: #a87056;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  border-top-right-radius: 12px;
+}
+#caja-descripcion-delivery h2 {
+  text-align: left;
+}
+#caja-rappi-pedidos-ya {
+  width: 230px;
+  height: 80px;
+  margin-left: 100px;
+  margin-top: 45px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+#rappi {
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  background-image: url("img/rappi.png");
+  background-size: cover;
+  border-radius: 12px;
+  float: left;
+}
+#pedidos-ya {
+  width: 70px;
+  height: 70px;
+  margin-left: 40px;
+  background-image: url("img/pedidos-ya.jpg");
+  background-size: cover;
+  border-radius: 12px;
+  float: left;
+}
+
+#caja-catering {
+  width: 550px;
+  height: 300px;
+  float: left;
+  background-image: url("img/catering.png");
+  background-size: cover;
+  border-bottom-right-radius: 12px;
+}
+#caja-descripcion-catering {
+  width: 410px;
+  height: 300px;
+  background-color: #a87056;
+  float: left;
+  border-bottom-left-radius: 12px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#detalle-catering {
+  padding: 10px;
+}
+#detalle-catering h2 {
+  text-align: right;
+}
+/* ####cajas de section nosotros*/
+
+#nosotros {
+  height: fit-content;
+
+  padding: 38px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background: -webkit-radial-gradient(circle, white, #b1b1b1);
+}
+
+#contenedor-nosotros-izq {
+  width: 880px;
+  height: 430px;
+  margin-top: 20px;
+  margin-right: 40px;
+  float: left;
+}
+#detalle-nosotros h2 {
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+#detalle-nosotros p {
+  font-size: 20px;
+}
+
+#detalle-nosotros {
+  padding: 15px;
+}
+
+#nosotros h2 {
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+#botonera-empleados {
+  width: 280px;
+  height: 60px;
+  background-color: #6b6565;
+  margin-top: 20px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border: thick;
+  border-color: aqua;
+  box-shadow: 0px 14px 20px 2px gray;
+}
+#botonera-empleados ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#botonera-empleados ul li {
+  display: inline;
 }
 #botonera-empleados ul li a {
-display: inline-block;
-color: #000000;
-text-decoration: none;
-font-weight: bold;
-padding: 21px 12px;
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 21px 12px;
 }
-#botonera-empleados ul li a:hover{
-background-color:#C0B5B5;
-color: #FC0202;
-border-radius: 12px;
-padding: 12px 12px;
-border:thin;
+#botonera-empleados ul li a:hover {
+  background-color: #c0b5b5;
+  color: #fc0202;
+  border-radius: 12px;
+  padding: 12px 12px;
+  border: thin;
+}
+#martin,
+#romina,
+#alejandra {
+  justify-content: center;
+  width: 280px;
+  height: 490px;
+  margin: auto;
+  background-color: #e50808;
+  border-radius: 12px;
+  background: -webkit-radial-gradient(circle, white, #221717);
+  transition: all 2s;
+  box-shadow: 0px 14px 20px 2px gray;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#nosotros img {
+  width: 100%;
+}
+#martin h3,
+#romina h3,
+#alejandra h3 {
+  text-align: center;
+  text-shadow: 1px 3px 2px gray;
 }
 
-#martin,#romina,#alejandra {
-	justify-content:center;
-	width: 280px;
-	height: 490px;
-	margin: auto;
-	background-color: #E50808;
-	border-radius: 12px;
-	background: -webkit-radial-gradient(circle, white, #221717);
-	transition:all .5s;
-	box-shadow: 0px 14px 20px 2px gray ;
-	padding: 10px;
-	box-sizing: border-box;
-	
-	
-}
-#nosotros img{
-	width: 100%;
-	
-}
-#martin h3, #romina h3, #alejandra h3 {
-	text-align: center;
-	text-shadow: 1px 3px 2px gray;
-	
-}
-
-
-
-
-
-
-	
 /*#######contacto#####*/
-#contacto{
-	height: 880px;
-	background: -webkit-radial-gradient(circle, white, #B1B1B1);	
-	border-radius: 12px;
-	padding: 30px;
-	box-sizing: border-box;
+#contacto {
+  height: auto;
+  background: -webkit-radial-gradient(circle, white, #b1b1b1);
+  border-radius: 12px;
+  padding: 30px;
+  box-sizing: border-box;
 }
 /* ######caja datos de contacto######*/
 
-#caja-datos-contacto{
-	width: 900px;
-	height: 300px;
-	padding: 10px;
-	box-sizing: border-box;
-	
+#caja-datos-contacto {
+  width: 900px;
+  height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 #tel {
-	width: 130px;
-	height: 130px;
-	
-	float: left;
-	margin: 20px;
-	margin-left: 80px;
-	background-image: url("img/ico/telefono.png");
-	background-size: cover;
+  width: 130px;
+  height: 130px;
+
+  float: left;
+  margin: 20px;
+  margin-left: 80px;
+  background-image: url("img/ico/telefono.png");
+  background-size: cover;
 }
 
-
-
-#wa{
-	 
-	width: 150px;
-	height: 150px;
-	float: left;
-	margin: 15px;
-	background-image: url("img/ico/wa.png");
-	background-size: cover;
+#wa {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 15px;
+  background-image: url("img/ico/wa.png");
+  background-size: cover;
 }
-#ig{
-	 
-	width: 150px;
-	height: 150px;
-	float: left;
-	margin: 15px 40px 15px 15px;
-	
-	background-image: url("img/ico/ig.png");
-	background-size:cover;
-	
+#ig {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 15px 40px 15px 15px;
+
+  background-image: url("img/ico/ig.png");
+  background-size: cover;
 }
 
-#fb{
-	 
-	width: 125px;
-	height: 125px;
-	float: left;
-	margin:25px;
-	background-image: url("img/ico/fb.png");
-	background-size:cover;
+#fb {
+  width: 125px;
+  height: 125px;
+  float: left;
+  margin: 25px;
+  background-image: url("img/ico/fb.png");
+  background-size: cover;
 }
-#fb a{
-	width: 150px;
-	height: 150px;
-}
-
-#caja-numero-tel{
-	margin: 5px 2px 20px 70px;
-	width: 140px;
-	height: 50px;
-	float: left;
+#fb a {
+  width: 150px;
+  height: 150px;
 }
 
-#contacto #caja-datos-contacto p{
-	 
-	font-weight: bold;
-	
-}
-#caja-leyenda-abajo-iconos{
-	
-	width: 480px;
-	height: 50px;
-	padding-left: 10px;
-	margin:5px 10px 10px 20px;
-	float:left;
+#caja-numero-tel {
+  margin: 5px 2px 20px 70px;
+  width: 140px;
+  height: 50px;
+  float: left;
 }
 
-
+#contacto #caja-datos-contacto p {
+  font-weight: bold;
+}
+#caja-leyenda-abajo-iconos {
+  width: 480px;
+  height: 50px;
+  padding-left: 10px;
+  margin: 5px 10px 10px 20px;
+  float: left;
+}
 
 /*####formulario de contacto####*/
-#contacto h2{
-	margin-left: 20px;
-	font-size: 38px;
-	text-align: center;
-	
+#contacto h2 {
+  margin-left: 20px;
+  font-size: 38px;
+  text-align: center;
 }
 
-
-	
-#contacto form ul li{
-	list-style-type: none;
+#contacto form ul li {
+  list-style-type: none;
 }
 
-#campos-obligatorios{
-	color: #E50808;
-	font-weight: bolder;
-	margin:0px; 
+#campos-obligatorios {
+  color: #e50808;
+  font-weight: bolder;
+  margin: 0px;
 }
 
+/*##### footer ####*/
 
-/*################section encuesta##############################*/
-#encuesta{
-	height: 500px;
-		
-		padding: 10px;
-		box-sizing: border-box;
-		border-radius: 12px;
-		background: -webkit-radial-gradient(circle, white, #B1B1B1);
+footer {
+  height: 100px;
+  background: -webkit-radial-gradient(circle, white, #b1b1b1);
+  border-radius: 12px;
+  margin-bottom: 10px;
 }
 
-#caja-titulo-encuesta h2{
-	text-align: center;
-	font-size: 38px;
+/* ##cajas del footer##*/
+
+#pie-izq {
+  width: 250px;
+  height: 60px;
+  float: left;
+  margin-left: 90px;
+  margin-top: 20px;
 }
-#caja-cuestionario{
-	width: 940px;
-	height: 380px;
-	
+#pie-der {
+  width: 280px;
+  height: 50px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 20px;
 }
-
-
-
-
-	/*##### footer ####*/
-
-	footer{
-
-		height: 100px;
-		background: -webkit-radial-gradient(circle, white, #B1B1B1);	
-		border-radius: 12px;
-	}
-
-	/* ##cajas del footer##*/
-
-	#pie-izq{
-		width: 250px;
-		height: 60px;
-		float: left;
-		margin-left: 90px;
-		margin-top: 20px;
-	}
-	#pie-der{
-		width: 280px;
-		height: 50px;	
-	    float: right;
-	    margin-right: 50px;
-	    margin-top: 20px;
-
-	}

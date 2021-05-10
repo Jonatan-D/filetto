@@ -1,6 +1,5 @@
 /*
 
-
 //variable y sentencia para utilizar en caso de que se cancele la encuesta
 
 
@@ -82,6 +81,6 @@ function realizarEncuesta() {
 
 }
 
-
 */
+
 
